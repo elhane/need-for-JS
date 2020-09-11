@@ -51,37 +51,54 @@ table {
   display: none;
 }
 
+.top-score {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 150;
+  margin: auto;
+  height: auto;
+  padding: 15px 20px;
+  width: 300px;
+  font-size: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white;
+  background-color: #81bb3e;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .start {
   position: absolute;
-  /* top: calc(50% - 54px); */
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
   
   max-width: 300px;
-  padding: 22px;
+  padding: 15px 20px;
   margin: auto;
   
   background-color: #81bb3e;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
+
   color: white;
   
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  /* font-family: 'Courier New', 'Arial', monospace; */
-
-  /* font-weight: 500; */
-  /* border-radius: 11px; */
-  cursor: pointer;
   box-sizing: border-box;
+}
+
+.start-text {
+  margin-bottom: 10px;
 }
 
 .car,
 .enemy {
   position: absolute;
   left: 125px;
-  bottom: 10px;
+  bottom: 60px;
 
   width: 50px;
   height: 100px;
@@ -89,11 +106,17 @@ table {
   background: transparent url('./image/player.png') center / cover no-repeat;
 }
 
+.game {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .gameArea {
   position: relative;
-
   width: 300px;
-  height: 100vh;
+  height: 100%;
   margin: auto;
   background-color: #222;
   overflow: hidden;
@@ -103,7 +126,6 @@ table {
   position: absolute;
   left: 145px;
   width: 10px;
-  height: 50px;
   background-color: #fff;
 }
 
@@ -116,7 +138,6 @@ table {
   padding: 22px;
   background-color: #81bb3e;
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  /* font-family: 'Courier New', 'Arial', monospace; */
   text-align:  center;
   font-size: 1.5rem;
   line-height: 1.7rem;
@@ -124,4 +145,11 @@ table {
   max-width: 300px;
   margin: auto;
   box-sizing: border-box;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
