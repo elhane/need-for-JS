@@ -1,0 +1,26 @@
+{
+  "name": "nfjs",
+  "version": "1.0.0",
+  "description": "Интенсив по JavaScript [GLO Academy] | Гоночки",
+  "main": "script.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhane/need-for-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhane/need-for-JS/issues"
+  },
+  "homepage": "https://github.com/elhane/need-for-JS#readme",
+  "devDependencies": {
+    "electron": "^10.1.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
